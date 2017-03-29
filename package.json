@@ -1,0 +1,19 @@
+{
+  "name": "legomini",
+  "version": "1.0.0",
+  "description": "轻量的css框架",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/feather-components/legomini.git"
+  },
+  "author": "pzl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/feather-components/legomini/issues"
+  },
+  "homepage": "https://github.com/feather-components/legomini#readme"
+}
