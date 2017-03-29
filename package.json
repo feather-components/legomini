@@ -15,5 +15,17 @@
   "bugs": {
     "url": "https://github.com/feather-components/legomini/issues"
   },
-  "homepage": "https://github.com/feather-components/legomini#readme"
+  "homepage": "https://github.com/feather-components/legomini#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^1.0.2",
+    "grunt-contrib-less": "^1.4.0",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-contrib-watch": "^1.0.0"
+  },
+  "dependencies": {
+    "grunt-contrib-clean": "^1.0.0"
+  }
 }

@@ -1,0 +1,49 @@
+.lm-primary {
+  min-width: 2.333rem;
+  text-align: center;
+  font-size: 0.26rem;
+  line-height: 0.64rem;
+  border-radius: 0.32rem;
+  background: transparent;
+  box-sizing: border-box;
+  padding: 0 0.24rem;
+  border: 0;
+  color: #fff;
+  background: #3B4263;
+}
+.lm-enable {
+  min-width: 2.333rem;
+  text-align: center;
+  font-size: 0.26rem;
+  line-height: 0.64rem;
+  border-radius: 0.32rem;
+  background: transparent;
+  box-sizing: border-box;
+  padding: 0 0.24rem;
+  border: 0;
+  color: #fff;
+  background: #3B4263;
+}
+.lm-disable {
+  min-width: 2.333rem;
+  text-align: center;
+  font-size: 0.26rem;
+  line-height: 0.64rem;
+  border-radius: 0.32rem;
+  background: transparent;
+  box-sizing: border-box;
+  padding: 0 0.24rem;
+  border: 0;
+  color: #fff;
+  background: #e1e1e1;
+}
+.lm-enable-border {
+  min-width: 2.333rem;
+  text-align: center;
+  font-size: 0.26rem;
+  line-height: 0.64rem;
+  border-radius: 0.32rem;
+  background: transparent;
+  box-sizing: border-box;
+  padding: 0 0.24rem;
+}
