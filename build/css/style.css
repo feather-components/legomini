@@ -1,3 +1,6 @@
+.main {
+  padding: .24rem;
+}
 .lm-demo-btn-list {
   width: 100%;
 }
@@ -5,4 +8,15 @@
   float: left;
   margin-right: 10px;
   margin-top: 10px;
+}
+.example {
+  margin-top: 20px;
+}
+.btn-body > header {
+  font-size: 0.36rem;
+  font-weight: bold;
+}
+.btn-body > h4 {
+  font-size: 0.26rem;
+  font-weight: bold;
 }
