@@ -3,17 +3,20 @@
   background: #28304E ;
   text-align: center;
 }
-.lm-tab label {
+.lm-tab label,
+.lm-tab span {
   display: inline-block;
   line-height: 0.533333rem;
   min-width: 1rem;
   color: rgba(255, 255, 255, 0.8);
   position: relative;
 }
-.lm-tab input[type="radio"]:checked + label {
+.lm-tab input[type="radio"]:checked + label,
+.lm-tab .active > span {
   color: #fff;
 }
-.lm-tab input[type="radio"]:checked + label:after {
+.lm-tab input[type="radio"]:checked + label:after,
+.lm-tab .active > span:after {
   content: "";
   display: inline-block;
   position: absolute;
@@ -30,14 +33,53 @@
   left: 0;
   top: 0;
 }
+.li-tab-col2 li {
+  position: relative;
+  float: left;
+  box-sizing: border-box;
+  overflow: hidden;
+  width: 50%;
+}
+.li-tab-col2:after {
+  content: "";
+  height: 0;
+  display: block;
+  clear: both;
+}
+.li-tab-col3 li {
+  position: relative;
+  float: left;
+  box-sizing: border-box;
+  overflow: hidden;
+  width: 33.333%;
+}
+.li-tab-col3:after {
+  content: "";
+  height: 0;
+  display: block;
+  clear: both;
+}
 .li-tab-col4 li {
   position: relative;
   float: left;
-  width: 25%;
   box-sizing: border-box;
   overflow: hidden;
+  width: 25%;
 }
 .li-tab-col4:after {
+  content: "";
+  height: 0;
+  display: block;
+  clear: both;
+}
+.li-tab-col5 li {
+  position: relative;
+  float: left;
+  box-sizing: border-box;
+  overflow: hidden;
+  width: 20%;
+}
+.li-tab-col5:after {
   content: "";
   height: 0;
   display: block;
