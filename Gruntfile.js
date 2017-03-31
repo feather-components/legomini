@@ -71,7 +71,7 @@ module.exports = function(grunt) {
         },
         watch: {
             start: {
-                files: ['src/css/*/*.less','src/css/style.less',  'src/style/*.css','src/js/*.js', 'examples/*.*'],
+                files: ['src/css/*/*.less','src/css/style.less',  'src/css/legomini.less','src/js/*.js', 'examples/*.*'],
                 tasks: ['less', 'cssmin']
             }
         }

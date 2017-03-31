@@ -1,0 +1,110 @@
+@info:#73C48F;
+@disable:#e1e1e1;
+@success:#F96854;
+@primary:#6281C2;
+@default:#f3f3f3;
+
+.tag(){
+  display: inline-block;
+  min-width: 0.3rem;
+  width:auto;
+  padding:0 0.12rem;
+  line-height: 1.5;
+  font-size: 0.12rem;
+  border-bottom-right-radius:0.1rem;
+  border-top-left-radius:0.1rem;
+  box-sizing: border-box;
+}
+
+
+span.lm-tag {
+  .tag;
+  color:#fff;
+  &.info{
+    background: @info;
+  }
+  &.disable{
+    background: @disable;
+  }
+  &.success{
+    background: @success;
+  }
+  &.primary{
+    background: @primary;
+  }
+  &.default{
+    background: @default;
+  }
+}
+
+span.lm-tag-border{
+  .tag;
+  &.info{
+    border:1px solid @info;
+    color:@info;
+  }
+  &.disable{
+    border:1px solid @disable;
+    color:@disable;
+  }
+  &.success{
+    border:1px solid @success;
+    color:@success;
+  }
+  &.primary{
+    border:1px solid @primary;
+    color:@primary;
+  }
+  &.default{
+    border:1px solid @default;
+    color:@default;
+  }
+}
+
+span.lm-big-tag{
+  .tag;
+  font-size:0.28rem;
+  color:#fff;
+  &.info{
+    background: @info;
+  }
+  &.disable{
+    background: @disable;
+  }
+  &.success{
+    background: @success;
+  }
+  &.primary{
+    background: @primary;
+  }
+  &.default{
+    background: @default;
+  }
+}
+
+span.lm-sm-tag {
+  .tag;
+  font-size:0.2rem;
+  min-width: .2rem;
+  line-height: 1.2;
+  padding:0 0.08rem;
+  color:#fff;
+  border-bottom-right-radius:0.06rem;
+  border-top-left-radius:0.06rem;
+  &.info{
+    background: @info;
+  }
+  &.disable{
+    background: @disable;
+  }
+  &.success{
+    background: @success;
+  }
+  &.primary{
+    background: @primary;
+  }
+  &.default{
+    background: @default;
+  }
+}
+
