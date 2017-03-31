@@ -86,3 +86,12 @@
   width: 0.4rem;
   height: 0.4rem;
 }
+.lm-badge {
+  width: 0.26666rem;
+  height: 0.26666rem;
+  padding: 3px;
+  display: inline-block;
+  border-radius: 50%;
+  background: #F96854;
+  color: #fff;
+}
