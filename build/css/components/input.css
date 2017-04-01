@@ -1,19 +1,19 @@
-.lm-form-group {
+.lm-form-box {
   width: 100%;
   background: #fff;
   padding: 0.16rem;
   box-sizing: border-box;
 }
-.lm-form-group .lm-fg-header {
+.lm-form-box .lm-form-label {
   width: 100%;
 }
-.lm-form-group .lm-fg-header .error {
+.lm-form-box .lm-form-label .error {
   display: inline-block;
   float: right;
   color: #F96854;
   line-height: 2;
 }
-.lm-form-group .lm-fg-header label {
+.lm-form-box .lm-form-label label {
   display: inline-block;
   font-size: 0.26rem;
   color: #555;
@@ -21,7 +21,7 @@
   max-width: 50%;
   line-height: 2;
 }
-.lm-form-group .lm-fg-header .lm-number-tip {
+.lm-form-box .lm-form-label .lm-number-tip {
   display: inline-block;
   float: left;
   font-size: 0.20rem;
@@ -29,23 +29,23 @@
   margin-left: 0.05rem;
   line-height: 0.52rem;
 }
-.lm-form-group .lm-fg-header:after {
+.lm-form-box .lm-form-label:after {
   content: "";
   display: block;
   height: 0;
   clear: both;
 }
-.lm-form-group .lm-input {
+.lm-form-box .lm-input {
   width: 100%;
   line-height: 2;
   font-size: 0.26rem;
   position: relative;
 }
-.lm-form-group .lm-input input {
+.lm-form-box .lm-input input {
   float: left;
   width: 90%;
 }
-.lm-form-group .lm-input select {
+.lm-form-box .lm-input select {
   float: left;
   width: 90%;
   opacity: 0;
@@ -54,41 +54,41 @@
   top: 0;
   height: 100%;
 }
-.lm-form-group .lm-input .lm-select-icon {
+.lm-form-box .lm-input .lm-select-icon {
   display: inline-block;
   float: right;
 }
-.lm-form-group .lm-input div[contenteditable="true"] {
+.lm-form-box .lm-input div[contenteditable="true"] {
   width: 100%;
   min-height: 0.52rem;
   height: auto;
   resize: none;
   overflow: visible;
 }
-.lm-form-group .lm-input div[contenteditable="true"]:focus {
+.lm-form-box .lm-input div[contenteditable="true"]:focus {
   border: 0;
   outline: none;
 }
-.lm-form-group .lm-input:after {
+.lm-form-box .lm-input:after {
   content: "";
   display: block;
   height: 0;
   clear: both;
 }
-.lm-form-group .lm-upload {
+.lm-form-box .lm-upload {
   width: 100%;
   line-height: 2;
   font-size: 0.26rem;
   position: relative;
 }
-.lm-form-group .lm-upload .lm-upload-add {
+.lm-form-box .lm-upload .lm-upload-add {
   height: 1.06666rem;
   width: 1.453333rem;
   background: #f3f3f3;
   border-radius: 0.05rem;
   position: relative;
 }
-.lm-form-group .lm-upload .lm-upload-add:before {
+.lm-form-box .lm-upload .lm-upload-add:before {
   content: "";
   display: block;
   width: 0.42666rem;
@@ -100,7 +100,7 @@
   margin-left: -0.2133333rem;
   background: #fff;
 }
-.lm-form-group .lm-upload .lm-upload-add:after {
+.lm-form-box .lm-upload .lm-upload-add:after {
   content: "";
   display: block;
   position: absolute;
@@ -112,10 +112,10 @@
   margin-top: -0.2133333rem;
   background: #fff;
 }
-.lm-form-group .lm-select-tag {
+.lm-form-box .lm-select-tag {
   width: 100%;
 }
-.lm-form-group .lm-select-tag li {
+.lm-form-box .lm-select-tag li {
   float: left;
   box-sizing: border-box;
   border: 1px solid #878787;
@@ -128,18 +128,18 @@
   font-size: 0.26rem;
   margin-top: 0.1rem;
 }
-.lm-form-group .lm-select-tag li:nth-of-type(3n) {
+.lm-form-box .lm-select-tag li:nth-of-type(3n) {
   margin-right: 0;
 }
-.lm-form-group .lm-select-tag:after {
+.lm-form-box .lm-select-tag:after {
   content: "";
   display: block;
   height: 0;
   clear: both;
 }
-.lm-focus .lm-fg-header label {
+.lm-focus .lm-form-label label {
   color: #6281C2;
 }
-.lm-focus .lm-fg-header .error {
+.lm-focus .lm-form-label .error {
   display: none;
 }
