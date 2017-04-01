@@ -47,16 +47,16 @@
 }
 .lm-form-box .lm-input select {
   float: left;
-  width: 90%;
+  width: 100%;
   opacity: 0;
   position: absolute;
   left: 0;
   top: 0;
-  height: 100%;
+  height: 90%;
 }
-.lm-form-box .lm-input .lm-select-icon {
-  display: inline-block;
-  float: right;
+.lm-form-box .lm-input select:focus {
+  outline: none;
+  border: none;
 }
 .lm-form-box .lm-input div[contenteditable="true"] {
   width: 100%;

@@ -53,20 +53,24 @@
     }
     select{
       float: left;
-      width:90%;
+      width:100%;
       opacity: 0;
       position: absolute;
       left:0;
       top:0;
-      height:100%;
+      height:90%;
+      &:focus{
+        outline: none;
+        border: none;
+      }
     }
     .lm-select-result{
 
     }
-    .lm-select-icon{
-      display: inline-block;
-      float: right;
-    }
+    //.lm-select-icon{
+    //  display: inline-block;
+    //  float: right;
+    //}
     div[contenteditable="true"]{
       width: 100%;
       min-height:0.52rem;

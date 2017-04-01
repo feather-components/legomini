@@ -17,25 +17,34 @@
 }
 
 
-span.lm-tag {
+span.lm-tag-info {
   .tag;
   color:#fff;
-  &.info{
-    background: @info;
-  }
-  &.disable{
-    background: @disable;
-  }
-  &.success{
-    background: @success;
-  }
-  &.primary{
-    background: @primary;
-  }
-  &.default{
-    background: @default;
-  }
+  background: @info;
 }
+
+span.lm-tag-disable {
+  .tag;
+  color:#fff;
+  background: @disable;
+}
+span.lm-tag-success {
+  .tag;
+  color:#fff;
+  background: @success;
+}
+span.lm-tag-primary {
+  .tag;
+  color:#fff;
+  background: @primary;
+}
+span.lm-tag-default {
+  .tag;
+  color:#fff;
+  background: @default;
+}
+
+
 
 span.lm-tag-border{
   .tag;
@@ -60,27 +69,58 @@ span.lm-tag-border{
     color:@default;
   }
 }
+span.lm-tag-border-info{
+  .tag;
+  border:1px solid @info;
+  color:@info;
+}
+span.lm-tag-border-disable{
+  .tag;
+  border:1px solid @disable;
+  color:@disable;
+}
+span.lm-tag-border-primary{
+  .tag;
+  border:1px solid @primary;
+  color:@primary;
+}
+span.lm-tag-border-default{
+  .tag;
+  border:1px solid @default;
+  color:@default;
+}
 
-span.lm-big-tag{
+span.lm-big-tag-info{
   .tag;
   font-size:0.28rem;
   color:#fff;
-  &.info{
-    background: @info;
-  }
-  &.disable{
-    background: @disable;
-  }
-  &.success{
-    background: @success;
-  }
-  &.primary{
-    background: @primary;
-  }
-  &.default{
-    background: @default;
-  }
+  background: @info;
 }
+span.lm-big-tag-disable{
+  .tag;
+  font-size:0.28rem;
+  color:#fff;
+  background: @disable;
+}
+span.lm-big-tag-success{
+  .tag;
+  font-size:0.28rem;
+  color:#fff;
+  background: @success;
+}
+span.lm-big-tag-primary{
+  .tag;
+  font-size:0.28rem;
+  color:#fff;
+  background: @primary;
+}span.lm-big-tag-default{
+   .tag;
+   font-size:0.28rem;
+   color:#fff;
+   background: @default;
+ }
+
+
 
 span.lm-sm-tag {
   .tag;
@@ -106,5 +146,40 @@ span.lm-sm-tag {
   &.default{
     background: @default;
   }
+}
+.sm(){
+  font-size:0.2rem;
+  min-width: .2rem;
+  line-height: 1.2;
+  padding:0 0.08rem;
+  color:#fff;
+  border-bottom-right-radius:0.06rem;
+  border-top-left-radius:0.06rem;
+}
+span.lm-sm-tag-info {
+  .tag;
+  .sm;
+  background: @info;
+}
+
+span.lm-sm-tag-disable {
+  .tag;
+  .sm;
+  background: @disable;
+}
+span.lm-sm-tag-success {
+  .tag;
+  .sm;
+  background: @success;
+}
+span.lm-sm-tag-primary {
+  .tag;
+  .sm;
+  background: @primary;
+}
+span.lm-sm-tag-default{
+  .tag;
+  .sm;
+  background: @default;
 }
 
