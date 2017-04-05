@@ -2,20 +2,15 @@
 
 /*botton start*/
 
-@primary-color1:#28304e;
-@enable-color1:#3B4263;
-@disable-color1:#e1e1e1;
 
-@primary-color2:#6281C2;
-@enable-color2:#6281C2;
-@success-color2:#F96854;
-@disable-color2:#e1e1e1;
+
 
 .btn-mixin1(){
     min-width:2.333rem;
     text-align:center;
     font-size: 0.28rem;
     line-height:0.64rem;
+    height:0.64rem;
     border-radius: 0.32rem;
     background: transparent;
     box-sizing: border-box;
@@ -31,6 +26,7 @@
     text-align:center;
     font-size: 0.26rem;
     line-height:0.426666rem;
+    height:0.426666rem;
     border-radius: 0.32rem;
     background: transparent;
     box-sizing: border-box;
@@ -49,7 +45,7 @@
     background:@success-color2;
 }
 .background-color4(){
-    background:@disable-color2;
+    background:@line-grey;
 }
 
 
@@ -70,18 +66,18 @@
 .lm-btn-primary{
     .btn-mixin1;
     .btn-mixin2;
-    background:@primary-color1;
+    background:@dark-blue;
 }
 
 .lm-btn-enable{
     .btn-mixin1;
     .btn-mixin2;
-    background:@enable-color1;
+    background:@blue;
 }
 .lm-btn-disable{
     .btn-mixin1;
     .btn-mixin2;
-    background: @disable-color1;
+    background: @line-grey;
 }
 .lm-btn-enable-border{
     .btn-mixin1;

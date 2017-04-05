@@ -1,3 +1,17 @@
+/*好房经纪主色*/
+/*黄色，高亮显示*/
+/*绿色*/
+/*黑色*/
+/*灰色*/
+/*灰色高亮*/
+/*深蓝*/
+/*蓝*/
+/*浅灰*/
+/*浅灰*/
+/*toast背景色*/
+/*蒙层*/
+/**/
+/*button按下去的颜色*/
 body,
 h1,
 h2,
@@ -442,19 +456,21 @@ body {
   text-align: center;
   font-size: 0.28rem;
   line-height: 0.64rem;
+  height: 0.64rem;
   border-radius: 0.32rem;
   background: transparent;
   box-sizing: border-box;
   padding: 0 0.24rem;
   border: 0;
   color: #fff;
-  background: #28304e;
+  background: #28304E;
 }
 .lm-btn-enable {
   min-width: 2.333rem;
   text-align: center;
   font-size: 0.28rem;
   line-height: 0.64rem;
+  height: 0.64rem;
   border-radius: 0.32rem;
   background: transparent;
   box-sizing: border-box;
@@ -468,6 +484,7 @@ body {
   text-align: center;
   font-size: 0.28rem;
   line-height: 0.64rem;
+  height: 0.64rem;
   border-radius: 0.32rem;
   background: transparent;
   box-sizing: border-box;
@@ -481,6 +498,7 @@ body {
   text-align: center;
   font-size: 0.28rem;
   line-height: 0.64rem;
+  height: 0.64rem;
   border-radius: 0.32rem;
   background: transparent;
   box-sizing: border-box;
@@ -493,6 +511,7 @@ body {
   text-align: center;
   font-size: 0.28rem;
   line-height: 0.64rem;
+  height: 0.64rem;
   border-radius: 0.32rem;
   background: transparent;
   box-sizing: border-box;
@@ -506,6 +525,7 @@ body {
   text-align: center;
   font-size: 0.26rem;
   line-height: 0.426666rem;
+  height: 0.426666rem;
   border-radius: 0.32rem;
   background: transparent;
   box-sizing: border-box;
@@ -518,6 +538,7 @@ body {
   text-align: center;
   font-size: 0.26rem;
   line-height: 0.426666rem;
+  height: 0.426666rem;
   border-radius: 0.32rem;
   background: transparent;
   box-sizing: border-box;
@@ -530,6 +551,7 @@ body {
   text-align: center;
   font-size: 0.26rem;
   line-height: 0.426666rem;
+  height: 0.426666rem;
   border-radius: 0.32rem;
   background: transparent;
   box-sizing: border-box;
@@ -542,6 +564,7 @@ body {
   text-align: center;
   font-size: 0.26rem;
   line-height: 0.426666rem;
+  height: 0.426666rem;
   border-radius: 0.32rem;
   background: transparent;
   box-sizing: border-box;
@@ -554,6 +577,7 @@ body {
   text-align: center;
   font-size: 0.26rem;
   line-height: 0.426666rem;
+  height: 0.426666rem;
   border-radius: 0.32rem;
   background: transparent;
   box-sizing: border-box;
@@ -566,6 +590,7 @@ body {
   text-align: center;
   font-size: 0.26rem;
   line-height: 0.426666rem;
+  height: 0.426666rem;
   border-radius: 0.32rem;
   background: transparent;
   box-sizing: border-box;
@@ -578,6 +603,7 @@ body {
   text-align: center;
   font-size: 0.26rem;
   line-height: 0.426666rem;
+  height: 0.426666rem;
   border-radius: 0.32rem;
   background: transparent;
   box-sizing: border-box;
@@ -590,6 +616,7 @@ body {
   text-align: center;
   font-size: 0.26rem;
   line-height: 0.426666rem;
+  height: 0.426666rem;
   border-radius: 0.32rem;
   background: transparent;
   box-sizing: border-box;
@@ -603,6 +630,7 @@ body {
   text-align: center;
   font-size: 0.26rem;
   line-height: 0.426666rem;
+  height: 0.426666rem;
   border-radius: 0.32rem;
   background: transparent;
   box-sizing: border-box;
@@ -615,6 +643,7 @@ body {
   text-align: center;
   font-size: 0.26rem;
   line-height: 0.426666rem;
+  height: 0.426666rem;
   border-radius: 0.32rem;
   background: transparent;
   box-sizing: border-box;

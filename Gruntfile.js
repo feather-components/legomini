@@ -25,13 +25,7 @@ module.exports = function(grunt) {
                     cleancss: false // 压缩css文件
                 },
                 files: [
-                    {
-                        expand:true,
-                        cwd:'src/css/',
-                        src:'legomini.less',
-                        dest: 'build/css/',
-                        ext: '.css'
-                    },
+
                     {
                         expand:true,
                         cwd:'src/css/components/',
@@ -45,7 +39,15 @@ module.exports = function(grunt) {
                         src:'style.less',
                         dest: 'build/css/',
                         ext: '.css'
+                    },
+                    {
+                        expand:true,
+                        cwd:'src/css/',
+                        src:'legomini.less',
+                        dest: 'build/css/',
+                        ext: '.css'
                     }
+
                 ]
             },
         },
@@ -71,7 +73,7 @@ module.exports = function(grunt) {
         },
         watch: {
             start: {
-                files: ['src/css/*/*.less','src/css/style.less',  'src/css/legomini.less','src/js/*.js', 'examples/*.*'],
+                files: ['src/css/*/*.less','src/css/*/*.css','src/css/style.less',  'src/css/legomini.less','src/js/*.js', 'examples/*.*'],
                 tasks: ['less', 'cssmin']
             }
         }
