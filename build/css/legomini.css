@@ -12,6 +12,146 @@
 /*蒙层*/
 /**/
 /*button按下去的颜色*/
+@font-face {
+  font-family: "iconfont";
+  src: url('icon/iconfont.eot?t=1491440240409');
+  /* IE9*/
+  src: url('icon/iconfont.eot?t=1491440240409#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('icon/iconfont.woff?t=1491440240409') format('woff'), /* chrome, firefox */ url('icon/iconfont.ttf?t=1491440240409') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/ url('icon/iconfont.svg?t=1491440240409#iconfont') format('svg');
+  /* iOS 4.1- */
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 14px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sousuo:before {
+  content: "\e603";
+}
+.icon-chexiao:before {
+  content: "\e604";
+}
+.icon-shoucangjia:before {
+  content: "\e613";
+}
+.icon-xiangxiajiantou:before {
+  content: "\e605";
+}
+.icon-guanbi:before {
+  content: "\e625";
+}
+.icon-fankui:before {
+  content: "\e616";
+}
+.icon-bbgPoint:before {
+  content: "\e617";
+}
+.icon-yiguanzhu:before {
+  content: "\e618";
+}
+.icon-weiguanzhu:before {
+  content: "\e619";
+}
+.icon-zan:before {
+  content: "\e61a";
+}
+.icon-caidan:before {
+  content: "\e60c";
+}
+.icon-close:before {
+  content: "\e609";
+}
+.icon-back:before {
+  content: "\e606";
+}
+.icon-right:before {
+  content: "\e607";
+}
+.icon-up_sm_ic:before {
+  content: "\e60a";
+}
+.icon-down_sm_ic:before {
+  content: "\e60d";
+}
+.icon-top:before {
+  content: "\e608";
+}
+.icon-denglu:before {
+  content: "\e60b";
+}
+.icon-shfrzh:before {
+  content: "\e60e";
+}
+.icon-iconfonttelephone_f:before {
+  content: "\e60f";
+}
+.icon-fangzi:before {
+  content: "\e611";
+}
+.icon-fanhui:before {
+  content: "\e612";
+}
+.icon-sevenbabicon31:before {
+  content: "\e600";
+}
+.icon-sevenbabicon34:before {
+  content: "\e601";
+}
+.icon-xiaoqu:before {
+  content: "\e602";
+}
+.icon-ren:before {
+  content: "\e61b";
+}
+.icon-tixing:before {
+  content: "\e7bb";
+}
+.icon-1:before {
+  content: "\e615";
+}
+.icon-iconzhenghe51:before {
+  content: "\e610";
+}
+.icon-weituotubiao:before {
+  content: "\e61c";
+}
+.icon-iconzhenghe60:before {
+  content: "\e614";
+}
+.icon-gouxuan:before {
+  content: "\e819";
+}
+.icon-iconzhenghe0729fuzhi93:before {
+  content: "\e79c";
+}
+.icon-xingming:before {
+  content: "\e7be";
+}
+.icon-iconzhenghe0729fuzhi92:before {
+  content: "\e7a8";
+}
+.icon-iconfont-yoyo-14:before {
+  content: "\e7b5";
+}
+.icon-zhuanjia:before {
+  content: "\e670";
+}
+.icon-Countdown:before {
+  content: "\e7b8";
+}
+.icon-Already_registered:before {
+  content: "\e7b9";
+}
+.icon-region:before {
+  content: "\e7ba";
+}
+.icon-tianjiakanfangrenshu:before {
+  content: "\e7bc";
+}
+.icon-tese1:before {
+  content: "\e7bd";
+}
 body,
 h1,
 h2,
@@ -402,7 +542,14 @@ body {
   float: left;
   box-sizing: border-box;
   overflow: hidden;
+  list-style: none;
   width: 50%;
+}
+.li-tab-col2:after {
+  content: "";
+  height: 0;
+  display: block;
+  clear: both;
 }
 .li-tab-col2:after {
   content: "";
@@ -415,7 +562,14 @@ body {
   float: left;
   box-sizing: border-box;
   overflow: hidden;
+  list-style: none;
   width: 33.333%;
+}
+.li-tab-col3:after {
+  content: "";
+  height: 0;
+  display: block;
+  clear: both;
 }
 .li-tab-col3:after {
   content: "";
@@ -428,7 +582,14 @@ body {
   float: left;
   box-sizing: border-box;
   overflow: hidden;
+  list-style: none;
   width: 25%;
+}
+.li-tab-col4:after {
+  content: "";
+  height: 0;
+  display: block;
+  clear: both;
 }
 .li-tab-col4:after {
   content: "";
@@ -441,6 +602,7 @@ body {
   float: left;
   box-sizing: border-box;
   overflow: hidden;
+  list-style: none;
   width: 20%;
 }
 .li-tab-col5:after {
@@ -449,7 +611,27 @@ body {
   display: block;
   clear: both;
 }
+.li-tab-col5:after {
+  content: "";
+  height: 0;
+  display: block;
+  clear: both;
+}
 /*botton start*/
+/*好房经纪主色*/
+/*黄色，高亮显示*/
+/*绿色*/
+/*黑色*/
+/*灰色*/
+/*灰色高亮*/
+/*深蓝*/
+/*蓝*/
+/*浅灰*/
+/*浅灰*/
+/*toast背景色*/
+/*蒙层*/
+/**/
+/*button按下去的颜色*/
 /*botton end*/
 .lm-btn-primary {
   min-width: 2.333rem;
@@ -1154,6 +1336,20 @@ span.lm-sm-tag-default {
   border-top-left-radius: 0.06rem;
   background: #f3f3f3;
 }
+/*好房经纪主色*/
+/*黄色，高亮显示*/
+/*绿色*/
+/*黑色*/
+/*灰色*/
+/*灰色高亮*/
+/*深蓝*/
+/*蓝*/
+/*浅灰*/
+/*浅灰*/
+/*toast背景色*/
+/*蒙层*/
+/**/
+/*button按下去的颜色*/
 .lm-form-box {
   width: 100%;
   background: #fff;
@@ -1214,6 +1410,11 @@ span.lm-sm-tag-default {
   outline: none;
   border: none;
 }
+.lm-form-box .lm-input .lm-select-icon {
+  display: inline-block;
+  float: right;
+  color: #878787;
+}
 .lm-form-box .lm-input div[contenteditable="true"] {
   width: 100%;
   min-height: 0.52rem;
@@ -1273,16 +1474,36 @@ span.lm-sm-tag-default {
 }
 .lm-form-box .lm-select-tag li {
   float: left;
+  width: 32%;
+  margin-right: 2%;
+  margin-top: 0.1rem;
+  position: relative;
+}
+.lm-form-box .lm-select-tag li label {
+  display: inline-block;
+  width: 100%;
   box-sizing: border-box;
   border: 1px solid #878787;
   color: #878787;
   border-radius: 0.3rem;
   line-height: 0.6rem ;
-  width: 32%;
-  margin-right: 2%;
   text-align: center;
   font-size: 0.26rem;
-  margin-top: 0.1rem;
+}
+.lm-form-box .lm-select-tag li input[type="radio"],
+.lm-form-box .lm-select-tag li input[type="checkbox"] {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0;
+}
+.lm-form-box .lm-select-tag li input[type="radio"]:checked + label,
+.lm-form-box .lm-select-tag li input[type="checkbox"]:checked + label {
+  border: 1px solid #6281C2;
+  color: #6281C2;
 }
 .lm-form-box .lm-select-tag li:nth-of-type(3n) {
   margin-right: 0;
@@ -1469,10 +1690,152 @@ form.lm-search.block .lm-search-input span {
   display: inline-block;
   width: 30px;
   height: 30px;
-  border: 1px solid #fff;
+  line-height: 30px;
+  font-size: 30px;
 }
 .lm-toast.icon .text {
   display: inline-block;
   width: 100%;
   padding: 10px 0;
+}
+/*好房经纪主色*/
+/*黄色，高亮显示*/
+/*绿色*/
+/*黑色*/
+/*灰色*/
+/*灰色高亮*/
+/*深蓝*/
+/*蓝*/
+/*浅灰*/
+/*浅灰*/
+/*toast背景色*/
+/*蒙层*/
+/**/
+/*button按下去的颜色*/
+.lm-radio,
+.lm-checkbox {
+  display: inline-block;
+  width: 0.32rem;
+  height: 0.32rem;
+  position: relative;
+}
+.lm-radio label,
+.lm-checkbox label {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  border-radius: 0.16rem;
+}
+.lm-radio label i,
+.lm-checkbox label i {
+  line-height: 0.32rem;
+  font-size: .32rem;
+}
+.lm-radio input[type="radio"],
+.lm-checkbox input[type="radio"],
+.lm-radio input[type="checkbox"],
+.lm-checkbox input[type="checkbox"] {
+  opacity: 1;
+  z-index: 1;
+  position: absolute;
+  left: 20px;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.lm-radio input[type="checkbox"]:checked + label,
+.lm-checkbox input[type="checkbox"]:checked + label {
+  background: #6281C2;
+}
+.lm-radio input[type="checkbox"]:checked + label i,
+.lm-checkbox input[type="checkbox"]:checked + label i {
+  color: #fff;
+}
+.li-filter-col2 li {
+  position: relative;
+  float: left;
+  box-sizing: border-box;
+  overflow: hidden;
+  list-style: none;
+  width: 50%;
+}
+.li-filter-col3 li {
+  position: relative;
+  float: left;
+  box-sizing: border-box;
+  overflow: hidden;
+  list-style: none;
+  width: 33.333%;
+}
+.li-filter-col4 li {
+  position: relative;
+  float: left;
+  box-sizing: border-box;
+  overflow: hidden;
+  list-style: none;
+  width: 25%;
+}
+.li-filter-col5 li {
+  position: relative;
+  float: left;
+  box-sizing: border-box;
+  overflow: hidden;
+  list-style: none;
+  width: 20%;
+}
+.lm-filter {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  overflow: hidden;
+}
+.lm-filter li {
+  text-align: center;
+  height: 0.53333rem;
+}
+.lm-filter li p {
+  display: inline-block;
+}
+.lm-filter li p span:first-of-type {
+  display: inline-block;
+  float: left;
+  line-height: 0.53333rem;
+  font-size: 0.24rem;
+}
+.lm-filter li p span:nth-of-type(2) {
+  display: inline-block;
+  float: left;
+}
+.lm-filter li p span:nth-of-type(2) i {
+  font-size: 0.4rem;
+  line-height: 0.53333rem;
+}
+.lm-filter li p:after {
+  content: "";
+  height: 0;
+  display: block;
+  clear: both;
+}
+.lm-filter li p:after {
+  content: "";
+  height: 0;
+  display: block;
+  clear: both;
+}
+.lm-filter li.active p span {
+  color: #6281C2;
+  font-weight: bold;
+}
+.lm-filter:after {
+  content: "";
+  height: 0;
+  display: block;
+  clear: both;
+}
+.lm-filter:after {
+  content: "";
+  height: 0;
+  display: block;
+  clear: both;
 }

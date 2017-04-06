@@ -1,0 +1,57 @@
+@main-color:#F96854; /*好房经纪主色*/
+@yellow:F3CA4D; /*黄色，高亮显示*/
+@green:#73C48F;/*绿色*/
+@black:#222222;/*黑色*/
+@grey:#555555;/*灰色*/
+@light-grey:#878787;/*灰色高亮*/
+@dark-blue:#28304E;/*深蓝*/
+@blue:#3B4263;/*蓝*/
+@line-grey:#e1e1e1;/*浅灰*/
+@background-grey:#f3f3f3;/*浅灰*/
+@toast-black:rgba(0,0,0,0.7);/*toast背景色*/
+@mask-black:rgba(0,0,0,0.4);/*蒙层*/
+@sheet-background:rgba(255,255,255,0.8); /**/
+@button-press:rgba(98,129,194,0.5);/*button按下去的颜色*/
+
+@primary-color2:#6281C2;
+@enable-color2:#6281C2;
+@success-color2:#F96854;
+@disable-color2:#e1e1e1;
+
+.lm-radio,.lm-checkbox{
+  display: inline-block;
+  width:0.32rem;
+  height:0.32rem;
+  position: relative;
+  label{
+    display: inline-block;
+    width:100%;
+    height:100%;
+    border-radius:0.16rem;
+    //background:@primary-color2 ;
+    i{
+      line-height: 0.32rem;
+      font-size:.32rem;
+    }
+  }
+  input[type="radio"],input[type="checkbox"]{
+    opacity: 1;
+    z-index:1;
+    position: absolute;
+    left:20px;
+    top:0;
+    width:100%;
+    height:100%;
+  }
+  input[type="checkbox"]:checked+label{
+    background:@primary-color2 ;
+  }
+
+  input[type="checkbox"]:checked+label{
+    i{
+      color:#fff;
+    }
+  }
+}
+
+

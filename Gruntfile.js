@@ -2,7 +2,6 @@ module.exports = function(grunt) {
 
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
-
         copy: {
             move: {
                 files: [{
@@ -15,6 +14,16 @@ module.exports = function(grunt) {
                     cwd: 'src/js/',
                     src: 'rem.js',
                     dest: 'dist/js/'
+                },{
+                    expand:true,
+                    cwd:'src/css/icon/',
+                    src:'*.*',
+                    dest: 'build/css/icon',
+                },{
+                    expand:true,
+                    cwd:'src/css/icon/',
+                    src:'*.*',
+                    dest: 'dist/css/icon',
                 }]
             }
         },
@@ -25,7 +34,6 @@ module.exports = function(grunt) {
                     cleancss: false // 压缩css文件
                 },
                 files: [
-
                     {
                         expand:true,
                         cwd:'src/css/components/',

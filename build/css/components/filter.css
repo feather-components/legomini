@@ -1,0 +1,76 @@
+.li-filter-col2 li {
+  position: relative;
+  float: left;
+  box-sizing: border-box;
+  overflow: hidden;
+  list-style: none;
+  width: 50%;
+}
+.li-filter-col3 li {
+  position: relative;
+  float: left;
+  box-sizing: border-box;
+  overflow: hidden;
+  list-style: none;
+  width: 33.333%;
+}
+.li-filter-col4 li {
+  position: relative;
+  float: left;
+  box-sizing: border-box;
+  overflow: hidden;
+  list-style: none;
+  width: 25%;
+}
+.li-filter-col5 li {
+  position: relative;
+  float: left;
+  box-sizing: border-box;
+  overflow: hidden;
+  list-style: none;
+  width: 20%;
+}
+.lm-filter {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  overflow: hidden;
+}
+.lm-filter li {
+  text-align: center;
+  height: 0.53333rem;
+}
+.lm-filter li p {
+  display: inline-block;
+}
+.lm-filter li p span:first-of-type {
+  display: inline-block;
+  float: left;
+  line-height: 0.53333rem;
+  font-size: 0.24rem;
+}
+.lm-filter li p span:nth-of-type(2) {
+  display: inline-block;
+  float: left;
+}
+.lm-filter li p span:nth-of-type(2) i {
+  font-size: 0.4rem;
+  line-height: 0.53333rem;
+}
+.lm-filter li p:after {
+  content: "";
+  height: 0;
+  display: block;
+  clear: both;
+}
+.lm-filter li.active p span {
+  color: #6281C2;
+  font-weight: bold;
+}
+.lm-filter:after {
+  content: "";
+  height: 0;
+  display: block;
+  clear: both;
+}
