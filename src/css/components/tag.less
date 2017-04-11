@@ -6,13 +6,13 @@
 
 .tag(){
   display: inline-block;
-  min-width: 0.3rem;
+  min-width: 0.15rem;
   width:auto;
-  padding:0 0.12rem;
+  padding:0 0.06rem;
   line-height: 1.5;
-  font-size: 0.12rem;
-  border-bottom-right-radius:0.1rem;
-  border-top-left-radius:0.1rem;
+  font-size: 0.06rem;
+  border-bottom-right-radius:0.05rem;
+  border-top-left-radius:0.05rem;
   box-sizing: border-box;
 }
 
@@ -89,33 +89,38 @@ span.lm-tag-border-default{
   border:1px solid @default;
   color:@default;
 }
+span.lm-tag-border-success{
+  .tag;
+  border:1px solid @success;
+  color:@success;
+}
 
 span.lm-big-tag-info{
   .tag;
-  font-size:0.28rem;
+  font-size:0.14rem;
   color:#fff;
   background: @info;
 }
 span.lm-big-tag-disable{
   .tag;
-  font-size:0.28rem;
+  font-size:0.14rem;
   color:#fff;
   background: @disable;
 }
 span.lm-big-tag-success{
   .tag;
-  font-size:0.28rem;
+  font-size:0.14rem;
   color:#fff;
   background: @success;
 }
 span.lm-big-tag-primary{
   .tag;
-  font-size:0.28rem;
+  font-size:0.14rem;
   color:#fff;
   background: @primary;
 }span.lm-big-tag-default{
    .tag;
-   font-size:0.28rem;
+   font-size:0.14rem;
    color:#fff;
    background: @default;
  }
@@ -124,13 +129,13 @@ span.lm-big-tag-primary{
 
 span.lm-sm-tag {
   .tag;
-  font-size:0.2rem;
-  min-width: .2rem;
+  font-size:0.1rem;
+  min-width: .1rem;
   line-height: 1.2;
-  padding:0 0.08rem;
+  padding:0 0.04rem;
   color:#fff;
-  border-bottom-right-radius:0.06rem;
-  border-top-left-radius:0.06rem;
+  border-bottom-right-radius:0.03rem;
+  border-top-left-radius:0.03rem;
   &.info{
     background: @info;
   }
@@ -148,13 +153,13 @@ span.lm-sm-tag {
   }
 }
 .sm(){
-  font-size:0.2rem;
-  min-width: .2rem;
+  font-size:0.1rem;
+  min-width:0.1rem;
   line-height: 1.2;
-  padding:0 0.08rem;
+  padding:0 0.04rem;
   color:#fff;
-  border-bottom-right-radius:0.06rem;
-  border-top-left-radius:0.06rem;
+  border-bottom-right-radius:0.03rem;
+  border-top-left-radius:0.03rem;
 }
 span.lm-sm-tag-info {
   .tag;

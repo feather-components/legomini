@@ -28,20 +28,21 @@
 .lm-form-box{
   width:100%;
   background: #fff;
-  padding:0.16rem;
+  padding:0.08rem;
   box-sizing:border-box;
+  position: relative;
   .lm-form-label{
       width:100%;
-      .error{
+      .lm-label-error{
         display: inline-block;
         float: right;
         color:#F96854;
         line-height: 2;
       }
 
-      label{
+      span:first-of-type{
         display: inline-block;
-        font-size:0.26rem;
+        font-size:0.13rem;
         color:#555;
         float: left;
         max-width: 50%;
@@ -50,99 +51,105 @@
     .lm-number-tip{
       display: inline-block;
       float: left;
-      font-size:0.20rem;
+      font-size:0.1rem;
       color:#878787;
-      margin-left:0.05rem;
-      line-height:0.52rem;
+      margin-left:0.025rem;
+      line-height:0.26rem;
     }
 
     &:after{
       .clearfix;
     }
 
+  }
+  input[type="text"],input[type="password"]{
+    width:100%;
+    line-height: 25px;
+  }
+  div[contenteditable="true"]{
+    width: 100%;
+    min-height:0.26rem;
+    max-height:1rem;
+    height:auto;
+    resize: none;
+    overflow: auto;
+    &:focus{
+      border: 0;
+      outline: none;
+    }
+
+  }
+
+
+  select{
+    -webkit-appearance: none;
+    float: left;
+    width:100%;
+    //position: absolute;
+    //left:0;
+    //top:0;
+    border:0;
+    height:25px;
+    &:focus{
+      outline: none;
+      border: none;
+    }
+  }
+
+  select + .lm-select-icon{
+    display: inline-block;
+    position: absolute;
+    right:0.08rem;
+    bottom:0.08rem;
+    color:@light-grey;
+    z-index:1;
   }
 
   .lm-input{
     width:100%;
     line-height: 2;
-    font-size:0.26rem;
+    font-size:0.13rem;
     position: relative;
-    input{
-      float: left;
-      width:90%;
-    }
-    select{
-      float: left;
-      width:100%;
-      opacity: 0;
-      position: absolute;
-      left:0;
-      top:0;
-      height:90%;
-      &:focus{
-        outline: none;
-        border: none;
-      }
-    }
-    .lm-select-result{
-
-    }
-    .lm-select-icon{
-      display: inline-block;
-      float: right;
-      color:@light-grey;
-    }
-    div[contenteditable="true"]{
-      width: 100%;
-      min-height:0.52rem;
-      height:auto;
-      resize: none;
-      overflow: visible;
-      &:focus{
-        border: 0;
-        outline: none;
-      }
-
-    }
 
     &:after{
       .clearfix;
     }
+
   }
 
   .lm-upload{
     width:100%;
     line-height: 2;
-    font-size:0.26rem;
+    font-size:0.13rem;
     position: relative;
     .lm-upload-add{
-      height:1.06666rem;
-      width:1.453333rem;
+      height:0.53333rem;
+      width:0.726665rem;
       background: #f3f3f3;
-      border-radius: 0.05rem;
+      border-radius: 0.025rem;
       position: relative;
       &:before{
         content:"";
         display: block;
-        width:0.42666rem;
-        height:0.08rem;
+        width:0.21333rem;
+        height:0.04rem;
         position: absolute;
         top:50%;
         left:50%;
-        margin-top:-0.04rem;
-        margin-left:-0.2133333rem;
+        margin-top:-0.02rem;
+        margin-left:-0.10666rem;
         background:#fff;
       }
       &:after{
         content:"";
         display: block;
         position: absolute;
-        height:0.42666rem;
-        width:0.08rem;
+        height:0.213333rem;
+        width:0.04rem;
         top:50%;
         left:50%;
-        margin-left:-0.04rem;
-        margin-top:-0.2133333rem;
+        margin-left:-0.02rem;
+        margin-top:-0.10666rem;
         background:#fff;
 
       }
@@ -150,7 +157,7 @@
 
   }
 
-  .lm-select-tag{
+  .lm-radio-plain,.lm-checkbox-plain{
     width:100%;
     li{
       float: left;
@@ -164,10 +171,10 @@
         box-sizing: border-box;
         border: 1px solid #878787;
         color:#878787;
-        border-radius:0.3rem;
-        line-height:0.6rem ;
+        border-radius:0.15rem;
+        line-height:0.3rem ;
         text-align: center;
-        font-size: 0.26rem;
+        font-size: 0.13rem;
       }
       input[type="radio"],input[type="checkbox"]{
         position: absolute;
@@ -192,19 +199,17 @@
     }
   }
 
-
+  &:after{
+    .clearfix;
+  }
 }
-
-
-
-
 
 .lm-focus {
   .lm-form-label{
-    label{
+    .lm-label-text{
       color:#6281C2;
     }
-    .error{
+    .lm-label-error{
       display: none;
     }
   }

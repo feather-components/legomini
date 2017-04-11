@@ -2,10 +2,10 @@
 /*switch end*/
 .lm-switch {
   display: inline-block;
-  height: 0.43333rem;
-  width: 0.72rem;
+  height: 0.216665rem;
+  width: 0.36rem;
   overflow: hidden;
-  border-radius: 0.20666rem;
+  border-radius: 0.103333rem;
   position: relative;
 }
 .lm-switch input[type='checkbox'] {
@@ -19,10 +19,10 @@
 }
 .lm-switch .lm-switch-label {
   position: relative;
-  height: 0.43333rem;
-  width: 0.72rem;
+  height: 0.216665rem;
+  width: 0.36rem;
   overflow: hidden;
-  border-radius: 0.20666rem;
+  border-radius: 0.103333rem;
   display: inline-block;
 }
 .lm-switch .lm-switch-label label:nth-of-type(1),
@@ -34,7 +34,7 @@
   left: 0;
   top: 0;
   box-sizing: border-box;
-  border-radius: 0.20666rem;
+  border-radius: 0.103333rem;
   transition: background 0.2s ease-in;
   -webkit-transition: background 0.2s ease-in;
   -moz-transition: background 0.2s ease-in;
@@ -45,10 +45,10 @@
   display: inline-block;
   position: absolute;
   top: 0;
-  width: 0.37333rem;
-  height: 0.37333rem;
+  width: 0.18665rem;
+  height: 0.18665rem;
   background: #fff;
-  border-radius: 0.18666rem;
+  border-radius: 0.0933325rem;
   box-shadow: 1px 1px 1px #e1e1e1;
   -moz-box-shadow: 1px 1px 1px #e1e1e1;
   -webkit-box-shadow: 1px 1px 1px #e1e1e1 ;
@@ -84,10 +84,10 @@
   display: inline-block;
   position: absolute;
   top: 0;
-  width: 0.37333rem;
-  height: 0.37333rem;
+  width: 0.18665rem;
+  height: 0.18665rem;
   background: #fff;
-  border-radius: 0.18666rem;
+  border-radius: 0.0933325rem;
   box-shadow: 1px 1px 1px #e1e1e1;
   -moz-box-shadow: 1px 1px 1px #e1e1e1;
   -webkit-box-shadow: 1px 1px 1px #e1e1e1 ;
@@ -97,7 +97,7 @@
   -webkit-transition: left 0.2s ease-in;
   -moz-transition: left 0.2s ease-in;
   -o-transition: left 0.2s ease-in;
-  left: 0.27rem;
+  left: 0.135rem;
 }
 .lm-switch.disable .lm-switch-label label:nth-of-type(1) {
   background: #f3f3f3;

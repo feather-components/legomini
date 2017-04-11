@@ -15,236 +15,236 @@
 /*button按下去的颜色*/
 /*botton end*/
 .lm-btn-primary {
-  min-width: 2.333rem;
+  min-width: 1.1665rem;
   text-align: center;
-  font-size: 0.28rem;
-  line-height: 0.64rem;
-  height: 0.64rem;
-  border-radius: 0.32rem;
+  font-size: 0.14rem;
+  line-height: 0.32rem;
+  height: 0.32rem;
+  border-radius: 0.16rem;
   background: transparent;
   box-sizing: border-box;
-  padding: 0 0.24rem;
+  padding: 0 0.12rem;
   border: 0;
   color: #fff;
   background: #28304E;
 }
 .lm-btn-enable {
-  min-width: 2.333rem;
+  min-width: 1.1665rem;
   text-align: center;
-  font-size: 0.28rem;
-  line-height: 0.64rem;
-  height: 0.64rem;
-  border-radius: 0.32rem;
+  font-size: 0.14rem;
+  line-height: 0.32rem;
+  height: 0.32rem;
+  border-radius: 0.16rem;
   background: transparent;
   box-sizing: border-box;
-  padding: 0 0.24rem;
+  padding: 0 0.12rem;
   border: 0;
   color: #fff;
   background: #3B4263;
 }
 .lm-btn-disable {
-  min-width: 2.333rem;
+  min-width: 1.1665rem;
   text-align: center;
-  font-size: 0.28rem;
-  line-height: 0.64rem;
-  height: 0.64rem;
-  border-radius: 0.32rem;
+  font-size: 0.14rem;
+  line-height: 0.32rem;
+  height: 0.32rem;
+  border-radius: 0.16rem;
   background: transparent;
   box-sizing: border-box;
-  padding: 0 0.24rem;
+  padding: 0 0.12rem;
   border: 0;
   color: #fff;
   background: #e1e1e1;
 }
 .lm-btn-enable-border {
-  min-width: 2.333rem;
+  min-width: 1.1665rem;
   text-align: center;
-  font-size: 0.28rem;
-  line-height: 0.64rem;
-  height: 0.64rem;
-  border-radius: 0.32rem;
+  font-size: 0.14rem;
+  line-height: 0.32rem;
+  height: 0.32rem;
+  border-radius: 0.16rem;
   background: transparent;
   box-sizing: border-box;
-  padding: 0 0.24rem;
+  padding: 0 0.12rem;
   border: 1px solid #6281C2;
   color: #6281C2;
 }
 .lm-btn-press-border {
-  min-width: 2.333rem;
+  min-width: 1.1665rem;
   text-align: center;
-  font-size: 0.28rem;
-  line-height: 0.64rem;
-  height: 0.64rem;
-  border-radius: 0.32rem;
+  font-size: 0.14rem;
+  line-height: 0.32rem;
+  height: 0.32rem;
+  border-radius: 0.16rem;
   background: transparent;
   box-sizing: border-box;
-  padding: 0 0.24rem;
+  padding: 0 0.12rem;
   border: 1px solid #6281C2;
   color: #6281C2;
   background: rgba(97, 129, 194, 0.5);
 }
 .lm-sm-btn-primary {
-  min-width: 2.133rem;
+  min-width: 1.0665rem;
   text-align: center;
-  font-size: 0.26rem;
-  line-height: 0.426666rem;
-  height: 0.426666rem;
-  border-radius: 0.32rem;
+  font-size: 0.13rem;
+  line-height: 0.213333rem;
+  height: 0.213333rem;
+  border-radius: 0.16rem;
   background: transparent;
   box-sizing: border-box;
-  padding: 0 0.24rem;
+  padding: 0 0.12rem;
   color: #fff;
   background: #6281C2;
 }
 .lm-sm-btn-enable {
-  min-width: 2.133rem;
+  min-width: 1.0665rem;
   text-align: center;
-  font-size: 0.26rem;
-  line-height: 0.426666rem;
-  height: 0.426666rem;
-  border-radius: 0.32rem;
+  font-size: 0.13rem;
+  line-height: 0.213333rem;
+  height: 0.213333rem;
+  border-radius: 0.16rem;
   background: transparent;
   box-sizing: border-box;
-  padding: 0 0.24rem;
+  padding: 0 0.12rem;
   color: #fff;
   background: #6281C2;
 }
 .lm-sm-btn-disable {
-  min-width: 2.133rem;
+  min-width: 1.0665rem;
   text-align: center;
-  font-size: 0.26rem;
-  line-height: 0.426666rem;
-  height: 0.426666rem;
-  border-radius: 0.32rem;
+  font-size: 0.13rem;
+  line-height: 0.213333rem;
+  height: 0.213333rem;
+  border-radius: 0.16rem;
   background: transparent;
   box-sizing: border-box;
-  padding: 0 0.24rem;
+  padding: 0 0.12rem;
   color: #fff;
   background: #e1e1e1;
 }
 .lm-sm-btn-success {
-  min-width: 2.133rem;
+  min-width: 1.0665rem;
   text-align: center;
-  font-size: 0.26rem;
-  line-height: 0.426666rem;
-  height: 0.426666rem;
-  border-radius: 0.32rem;
+  font-size: 0.13rem;
+  line-height: 0.213333rem;
+  height: 0.213333rem;
+  border-radius: 0.16rem;
   background: transparent;
   box-sizing: border-box;
-  padding: 0 0.24rem;
+  padding: 0 0.12rem;
   color: #fff;
   background: #F96854;
 }
 .lm-sm-btn-primary-success {
-  min-width: 2.133rem;
+  min-width: 1.0665rem;
   text-align: center;
-  font-size: 0.26rem;
-  line-height: 0.426666rem;
-  height: 0.426666rem;
-  border-radius: 0.32rem;
+  font-size: 0.13rem;
+  line-height: 0.213333rem;
+  height: 0.213333rem;
+  border-radius: 0.16rem;
   background: transparent;
   box-sizing: border-box;
-  padding: 0 0.24rem;
+  padding: 0 0.12rem;
   color: #fff;
   background: #F96854;
 }
 .lm-sm-btn-enable-success {
-  min-width: 2.133rem;
+  min-width: 1.0665rem;
   text-align: center;
-  font-size: 0.26rem;
-  line-height: 0.426666rem;
-  height: 0.426666rem;
-  border-radius: 0.32rem;
+  font-size: 0.13rem;
+  line-height: 0.213333rem;
+  height: 0.213333rem;
+  border-radius: 0.16rem;
   background: transparent;
   box-sizing: border-box;
-  padding: 0 0.24rem;
+  padding: 0 0.12rem;
   color: #fff;
   background: #F96854;
 }
 .lm-sm-btn-enable-border {
-  min-width: 2.133rem;
+  min-width: 1.0665rem;
   text-align: center;
-  font-size: 0.26rem;
-  line-height: 0.426666rem;
-  height: 0.426666rem;
-  border-radius: 0.32rem;
+  font-size: 0.13rem;
+  line-height: 0.213333rem;
+  height: 0.213333rem;
+  border-radius: 0.16rem;
   background: transparent;
   box-sizing: border-box;
-  padding: 0 0.24rem;
+  padding: 0 0.12rem;
   color: #6281C2;
   border: 1px solid #6281C2;
 }
 .lm-sm-btn-press-border {
-  min-width: 2.133rem;
+  min-width: 1.0665rem;
   text-align: center;
-  font-size: 0.26rem;
-  line-height: 0.426666rem;
-  height: 0.426666rem;
-  border-radius: 0.32rem;
+  font-size: 0.13rem;
+  line-height: 0.213333rem;
+  height: 0.213333rem;
+  border-radius: 0.16rem;
   background: transparent;
   box-sizing: border-box;
-  padding: 0 0.24rem;
+  padding: 0 0.12rem;
   color: #6281C2;
   border: 1px solid #6281C2;
   background: rgba(97, 129, 194, 0.5);
 }
 .lm-sm-btn-enable-success-border {
-  min-width: 2.133rem;
+  min-width: 1.0665rem;
   text-align: center;
-  font-size: 0.26rem;
-  line-height: 0.426666rem;
-  height: 0.426666rem;
-  border-radius: 0.32rem;
+  font-size: 0.13rem;
+  line-height: 0.213333rem;
+  height: 0.213333rem;
+  border-radius: 0.16rem;
   background: transparent;
   box-sizing: border-box;
-  padding: 0 0.24rem;
+  padding: 0 0.12rem;
   color: #555;
   border: 1px solid #878787;
 }
 .lm-sm-btn-press-success-border {
-  min-width: 2.133rem;
+  min-width: 1.0665rem;
   text-align: center;
-  font-size: 0.26rem;
-  line-height: 0.426666rem;
-  height: 0.426666rem;
-  border-radius: 0.32rem;
+  font-size: 0.13rem;
+  line-height: 0.213333rem;
+  height: 0.213333rem;
+  border-radius: 0.16rem;
   background: transparent;
   box-sizing: border-box;
-  padding: 0 0.24rem;
+  padding: 0 0.12rem;
   color: #555;
   border: 1px solid #F96854;
   background: #e1e1e1;
 }
 .lm-primary-square {
-  min-width: 2.333rem;
+  min-width: 1.1665rem;
   text-align: center;
-  font-size: 0.28rem;
-  line-height: 0.64rem;
+  font-size: 0.12rem;
+  line-height: 0.32rem;
   background: transparent;
   box-sizing: border-box;
-  padding: 0 0.24rem;
+  padding: 0 0.12rem;
   background: #6281C2;
   color: #fff;
 }
 .lm-enable-square {
-  min-width: 2.333rem;
+  min-width: 1.1665rem;
   text-align: center;
-  font-size: 0.28rem;
-  line-height: 0.64rem;
+  font-size: 0.12rem;
+  line-height: 0.32rem;
   background: transparent;
   box-sizing: border-box;
-  padding: 0 0.24rem;
+  padding: 0 0.12rem;
   background: #6281C2;
   color: #fff;
 }
 .lm-disable-square {
-  min-width: 2.333rem;
+  min-width: 1.1665rem;
   text-align: center;
-  font-size: 0.28rem;
-  line-height: 0.64rem;
+  font-size: 0.12rem;
+  line-height: 0.32rem;
   background: transparent;
   box-sizing: border-box;
-  padding: 0 0.24rem;
+  padding: 0 0.12rem;
   background: #e1e1e1;
   color: #fff;
 }

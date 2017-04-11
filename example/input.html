@@ -9,20 +9,22 @@
 </head>
 <body style="background: #f5f5f5">
 <script type="text/javascript" src="../dist/js/rem.js" head></script>
+<script>
+    adapt(320,100);
+</script>
 <section class="main">
     <div class="btn-body">
         <header>INPUT</header>
         <div class="example">
             <h4>Base Input</h4>
             <div style="margin-top:10px;">
-                <div class="lm-form-box lm-focus">
-                    <div class="lm-form-label">
-                        <label for="">Label</label>
-                        <span class="error">Error</span>
-                    </div>
-                    <div class="lm-input">
-                        <input type="text"  placeholder="Value">
-                    </div>
+                <div class="lm-form-box">
+
+                    <label for="" class="lm-form-label">
+                        <span class="lm-label-text">Label</span>
+                        <span class="lm-label-error">Error</span>
+                    </label>
+                    <input type="text" placeholder="Value">
 
                 </div>
             </div>
@@ -33,16 +35,18 @@
             <h4>Select Input</h4>
             <div style="margin-top:10px;">
                 <div class="lm-form-box lm-focus">
-                    <div class="lm-form-label">
-                        <label for="">Label</label>
-                        <span class="error">Error</span>
-                    </div>
-                    <div class="lm-input">
-                        <!--<input type="text"  placeholder="Value">-->
-                        <select name="" id=""></select>
-                        <span class="lm-select-result">result</span>
-                        <span class="lm-select-icon"><i class="icon iconfont icon-right"></i></span>
-                    </div>
+                    <label for="" class="lm-form-label">
+                        <span class="lm-label-text">Label</span>
+                        <span class="lm-label-error">Error</span>
+                    </label>
+                    <!--<div class="lm-input">-->
+                        <select name="" id="" >
+                            <option value="result" selected>result</option>
+                        </select>
+                        <span class="lm-select-icon icon iconfont icon-right"></span>
+                    <!--</div>-->
+
+
                 </div>
             </div>
 
@@ -52,13 +56,11 @@
             <h4>Select Input</h4>
             <div style="margin-top:10px;">
                 <div class="lm-form-box">
-                    <div class="lm-form-label">
-                        <label for="">Label</label>
+                    <label for="" class="lm-form-label">
+                        <span class="lm-label-text">Label</span>
                         <span class="lm-number-tip"><code>15</code>/<code>20</code></span>
-                    </div>
-                    <div class="lm-input">
-                        <div contenteditable="true"></div>
-                    </div>
+                    </label>
+                    <div contenteditable="true" class="lm-input"></div>
                 </div>
             </div>
         </div>
@@ -67,10 +69,10 @@
             <h4>Photo upload</h4>
             <div style="margin-top:10px;">
                 <div class="lm-form-box">
-                    <div class="lm-form-label">
-                        <label for="">Label</label>
+                    <label for="" class="lm-form-label">
+                        <span class="lm-label-text">Label</span>
                         <span class="lm-number-tip">Tip</span>
-                    </div>
+                    </label>
                     <div class="lm-upload">
                         <div class="lm-upload-add"></div>
                     </div>
@@ -83,11 +85,11 @@
             <h4>Select Tag(单选)</h4>
             <div style="margin-top:10px;">
                 <div class="lm-form-box">
-                    <div class="lm-form-label">
-                        <label for="">Label</label>
+                    <label for="" class="lm-form-label">
+                        <span class="lm-label-text">Label</span>
                         <span class="lm-number-tip">Tip</span>
-                    </div>
-                      <ul class="lm-select-tag">
+                    </label>
+                      <ul class="lm-radio-plain">
                           <li>
                               <input type="radio" id="r1" name="radio">
                               <label for="r1">tag</label>
@@ -120,11 +122,11 @@
             <h4>Select Tag(多选)</h4>
             <div style="margin-top:10px;">
                 <div class="lm-form-box">
-                    <div class="lm-form-label">
-                        <label for="">Label</label>
+                    <label for="" class="lm-form-label">
+                        <span class="lm-label-text">Label</span>
                         <span class="lm-number-tip">Tip</span>
-                    </div>
-                    <ul class="lm-select-tag">
+                    </label>
+                    <ul class="lm-checkbox-plain">
                         <li>
                             <input type="checkbox" id="r7" name="checkbox">
                             <label for="r7">tag</label>
