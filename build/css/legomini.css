@@ -1370,32 +1370,26 @@ span.lm-sm-tag-default {
   box-sizing: border-box;
   position: relative;
 }
-.lm-form-box .lm-form-label {
+.lm-form-box .lm-label {
+  display: inline-block;
   width: 100%;
+  color: #6281C2;
+  line-height: 25px;
 }
-.lm-form-box .lm-form-label .lm-label-error {
+.lm-form-box .lm-label .lm-label-desc.error {
   display: inline-block;
   float: right;
   color: #F96854;
   line-height: 2;
 }
-.lm-form-box .lm-form-label span:first-of-type {
+.lm-form-box .lm-label .lm-label-desc {
   display: inline-block;
-  font-size: 0.13rem;
-  color: #555;
-  float: left;
-  max-width: 50%;
-  line-height: 2;
-}
-.lm-form-box .lm-form-label .lm-number-tip {
-  display: inline-block;
-  float: left;
   font-size: 0.1rem;
   color: #878787;
   margin-left: 0.025rem;
   line-height: 0.26rem;
 }
-.lm-form-box .lm-form-label:after {
+.lm-form-box .lm-label:after {
   content: "";
   display: block;
   height: 0;
@@ -1488,18 +1482,14 @@ span.lm-sm-tag-default {
 }
 .lm-form-box .lm-radio-plain,
 .lm-form-box .lm-checkbox-plain {
-  width: 100%;
-}
-.lm-form-box .lm-radio-plain li,
-.lm-form-box .lm-checkbox-plain li {
   float: left;
   width: 32%;
   margin-right: 2%;
   margin-top: 0.1rem;
   position: relative;
 }
-.lm-form-box .lm-radio-plain li label,
-.lm-form-box .lm-checkbox-plain li label {
+.lm-form-box .lm-radio-plain label,
+.lm-form-box .lm-checkbox-plain label {
   display: inline-block;
   width: 100%;
   box-sizing: border-box;
@@ -1510,10 +1500,10 @@ span.lm-sm-tag-default {
   text-align: center;
   font-size: 0.13rem;
 }
-.lm-form-box .lm-radio-plain li input[type="radio"],
-.lm-form-box .lm-checkbox-plain li input[type="radio"],
-.lm-form-box .lm-radio-plain li input[type="checkbox"],
-.lm-form-box .lm-checkbox-plain li input[type="checkbox"] {
+.lm-form-box .lm-radio-plain input[type="radio"],
+.lm-form-box .lm-checkbox-plain input[type="radio"],
+.lm-form-box .lm-radio-plain input[type="checkbox"],
+.lm-form-box .lm-checkbox-plain input[type="checkbox"] {
   position: absolute;
   left: 0;
   top: 0;
@@ -1522,15 +1512,15 @@ span.lm-sm-tag-default {
   z-index: 1;
   opacity: 0;
 }
-.lm-form-box .lm-radio-plain li input[type="radio"]:checked + label,
-.lm-form-box .lm-checkbox-plain li input[type="radio"]:checked + label,
-.lm-form-box .lm-radio-plain li input[type="checkbox"]:checked + label,
-.lm-form-box .lm-checkbox-plain li input[type="checkbox"]:checked + label {
+.lm-form-box .lm-radio-plain input[type="radio"]:checked + label,
+.lm-form-box .lm-checkbox-plain input[type="radio"]:checked + label,
+.lm-form-box .lm-radio-plain input[type="checkbox"]:checked + label,
+.lm-form-box .lm-checkbox-plain input[type="checkbox"]:checked + label {
   border: 1px solid #6281C2;
   color: #6281C2;
 }
-.lm-form-box .lm-radio-plain li:nth-of-type(3n),
-.lm-form-box .lm-checkbox-plain li:nth-of-type(3n) {
+.lm-form-box .lm-radio-plain:nth-of-type(3n),
+.lm-form-box .lm-checkbox-plain:nth-of-type(3n) {
   margin-right: 0;
 }
 .lm-form-box .lm-radio-plain:after,
@@ -1546,10 +1536,10 @@ span.lm-sm-tag-default {
   height: 0;
   clear: both;
 }
-.lm-focus .lm-form-label .lm-label-text {
+.lm-focus .lm-label .lm-label-text {
   color: #6281C2;
 }
-.lm-focus .lm-form-label .lm-label-error {
+.lm-focus .lm-label .lm-label-error {
   display: none;
 }
 form.lm-search {

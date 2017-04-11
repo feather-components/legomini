@@ -31,26 +31,29 @@
   padding:0.08rem;
   box-sizing:border-box;
   position: relative;
-  .lm-form-label{
+  .lm-label{
+      display: inline-block;
       width:100%;
-      .lm-label-error{
+      color:#6281C2;
+      line-height: 25px;
+      .lm-label-desc.error{
         display: inline-block;
         float: right;
         color:#F96854;
         line-height: 2;
       }
 
-      span:first-of-type{
-        display: inline-block;
-        font-size:0.13rem;
-        color:#555;
-        float: left;
-        max-width: 50%;
-        line-height: 2;
-      }
-    .lm-number-tip{
+      //span:first-of-type{
+      //  display: inline-block;
+      //  font-size:0.13rem;
+      //  color:#555;
+      //  float: left;
+      //  max-width: 50%;
+      //  line-height: 2;
+      //}
+    .lm-label-desc{
       display: inline-block;
-      float: left;
+      //float: left;
       font-size:0.1rem;
       color:#878787;
       margin-left:0.025rem;
@@ -158,13 +161,11 @@
   }
 
   .lm-radio-plain,.lm-checkbox-plain{
-    width:100%;
-    li{
-      float: left;
-      width: 32%;
-      margin-right:2%;
-      margin-top:0.1rem;
-      position: relative;
+    float: left;
+    width: 32%;
+    margin-right:2%;
+    margin-top:0.1rem;
+    position: relative;
       label{
         display: inline-block;
         width:100%;
@@ -192,7 +193,7 @@
       &:nth-of-type(3n){
         margin-right:0;
       }
-    }
+
 
     &:after{
       .clearfix;
@@ -205,7 +206,7 @@
 }
 
 .lm-focus {
-  .lm-form-label{
+  .lm-label{
     .lm-label-text{
       color:#6281C2;
     }
