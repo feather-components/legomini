@@ -41,7 +41,3 @@ feather2引入
     require.async("legomini");
 ```
 
-
-## github
-https://github.com/feather-components/legomini
-
