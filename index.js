@@ -23,10 +23,11 @@
         head.appendChild(st);
         return defaultFontSize;
     }
-
-    if (typeof module === 'object' && typeof module.exports == 'object') {
-        module.exports = adapt;
-    }
+    //
+    // if (typeof module === 'object' && typeof module.exports == 'object') {
+    //     module.exports = adapt;
+    // }
+adapt(320,100)
 
 
 

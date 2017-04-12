@@ -1,6 +1,6 @@
 {
   "name": "legomini",
-  "desc": "适用于管理后台的前端css框架",
-  "version": "0.3.3",
-  "main": "dist/css/legomini.min.css"
+  "desc": "适用于H5经纪人的ui规范",
+  "version": "1.0.0",
+  "main": "index.js"
 }
