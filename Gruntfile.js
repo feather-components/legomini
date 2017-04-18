@@ -8,22 +8,22 @@ module.exports = function(grunt) {
                     expand: true,
                     cwd: 'src/js/',
                     src: 'legomini.js',
-                    dest: 'build/css/'
+                    dest: 'build/'
                 },{
                     expand: true,
                     cwd: 'src/js/',
                     src: 'legomini.js',
-                    dest: 'dist/css/'
+                    dest: 'dist/'
                 },{
                     expand:true,
                     cwd:'src/css/icon/',
                     src:'*.*',
-                    dest: 'build/css/icon',
+                    dest: 'build/icon',
                 },{
                     expand:true,
                     cwd:'src/css/icon/',
                     src:'*.*',
-                    dest: 'dist/css/icon',
+                    dest: 'dist/icon',
                 }]
             }
         },
@@ -38,21 +38,21 @@ module.exports = function(grunt) {
                         expand:true,
                         cwd:'src/css/components/',
                         src:'*.less',
-                        dest: 'build/css/components',
+                        dest: 'build/components',
                         ext: '.css'
                     },
                     {
                         expand:true,
                         cwd:'src/css/',
                         src:'style.less',
-                        dest: 'build/css/',
+                        dest: 'build/',
                         ext: '.css'
                     },
                     {
                         expand:true,
                         cwd:'src/css/',
                         src:'legomini.less',
-                        dest: 'build/css/',
+                        dest: 'build/',
                         ext: '.css'
                     }
 
@@ -66,14 +66,14 @@ module.exports = function(grunt) {
                         expand:true,
                         cwd:'build/css/',
                         src:'legomini.css',
-                        dest: 'dist/css/',
+                        dest: 'dist/',
                         ext: '.css'
                     },
                     {
                         expand:true,
                         cwd:'build/css/components/',
                         src:'*.css',
-                        dest: 'dist/css/components/',
+                        dest: 'dist/components/',
                         ext: '.css'
                     }
                 ]
