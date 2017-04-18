@@ -7,13 +7,13 @@ module.exports = function(grunt) {
                 files: [{
                     expand: true,
                     cwd: 'src/js/',
-                    src: 'rem.js',
-                    dest: 'build/js/'
+                    src: 'legomini.js',
+                    dest: 'build/css/'
                 },{
                     expand: true,
                     cwd: 'src/js/',
-                    src: 'rem.js',
-                    dest: 'dist/js/'
+                    src: 'legomini.js',
+                    dest: 'dist/css/'
                 },{
                     expand:true,
                     cwd:'src/css/icon/',
@@ -67,14 +67,14 @@ module.exports = function(grunt) {
                         cwd:'build/css/',
                         src:'legomini.css',
                         dest: 'dist/css/',
-                        ext: '.min.css'
+                        ext: '.css'
                     },
                     {
                         expand:true,
                         cwd:'build/css/components/',
                         src:'*.css',
                         dest: 'dist/css/components/',
-                        ext: '.min.css'
+                        ext: '.css'
                     }
                 ]
             }

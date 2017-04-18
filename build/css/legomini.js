@@ -1,5 +1,4 @@
 
-
 /**
  * Created by ex-pengzhiliang001 on 2017-03-29.
  */
@@ -23,11 +22,11 @@
         head.appendChild(st);
         return defaultFontSize;
     }
-    //
-    // if (typeof module === 'object' && typeof module.exports == 'object') {
-    //     module.exports = adapt;
-    // }
-adapt(320,100)
+    adapt(320,100);
+    if (typeof module === 'object' && typeof module.exports == 'object') {
+        module.exports = adapt;
+    }
+
 
 
 

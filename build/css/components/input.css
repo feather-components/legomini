@@ -15,45 +15,49 @@
 .lm-form-box {
   width: 100%;
   background: #fff;
-  padding: 0.08rem;
+  padding: 0 0.08rem;
   box-sizing: border-box;
   position: relative;
 }
-.lm-form-box .lm-label {
+.lm-form-box div {
+  width: 100%;
+  padding: 0.08rem 0;
+}
+.lm-form-box div .lm-label {
   display: inline-block;
   width: 100%;
   color: #4a4a4a;
   line-height: 25px;
 }
-.lm-form-box .lm-label .lm-label-desc.error {
+.lm-form-box div .lm-label .lm-label-desc.error {
   display: inline-block;
   float: right;
   color: #F96854;
   line-height: 2;
 }
-.lm-form-box .lm-label .lm-label-desc {
+.lm-form-box div .lm-label .lm-label-desc {
   display: inline-block;
   font-size: 0.1rem;
   color: #878787;
   margin-left: 0.025rem;
   line-height: 0.26rem;
 }
-.lm-form-box .lm-label:after {
+.lm-form-box div .lm-label:after {
   content: "";
   display: block;
   height: 0;
   clear: both;
 }
-.lm-form-box input[type="text"],
-.lm-form-box input[type="password"] {
+.lm-form-box div input[type="text"],
+.lm-form-box div input[type="password"] {
   width: 100%;
   line-height: 25px;
 }
-.lm-form-box input[type="text"]::-webkit-input-placeholder,
-.lm-form-box input[type="password"]::-webkit-input-placeholder {
+.lm-form-box div input[type="text"]::-webkit-input-placeholder,
+.lm-form-box div input[type="password"]::-webkit-input-placeholder {
   color: #e1e1e1;
 }
-.lm-form-box div[contenteditable="true"] {
+.lm-form-box div div[contenteditable="true"] {
   width: 100%;
   min-height: 0.26rem;
   max-height: 1rem;
@@ -61,23 +65,22 @@
   resize: none;
   overflow: auto;
 }
-.lm-form-box div[contenteditable="true"]:focus {
+.lm-form-box div div[contenteditable="true"]:focus {
   border: 0;
   outline: none;
 }
-.lm-form-box select {
+.lm-form-box div select {
   -webkit-appearance: none;
-  float: left;
   width: 100%;
   color: #e1e1e1;
   border: 0;
   height: 25px;
 }
-.lm-form-box select:focus {
+.lm-form-box div select:focus {
   outline: none;
   border: none;
 }
-.lm-form-box select + .lm-select-icon {
+.lm-form-box div select + .lm-select-icon {
   display: inline-block;
   position: absolute;
   right: 0.08rem;
@@ -85,32 +88,32 @@
   color: #878787;
   z-index: 1;
 }
-.lm-form-box .lm-input {
+.lm-form-box div .lm-input {
   width: 100%;
   line-height: 2;
   font-size: 0.13rem;
   position: relative;
 }
-.lm-form-box .lm-input:after {
+.lm-form-box div .lm-input:after {
   content: "";
   display: block;
   height: 0;
   clear: both;
 }
-.lm-form-box .lm-upload {
+.lm-form-box div .lm-upload {
   width: 100%;
   line-height: 2;
   font-size: 0.13rem;
   position: relative;
 }
-.lm-form-box .lm-upload .lm-upload-add {
+.lm-form-box div .lm-upload .lm-upload-add {
   height: 0.53333rem;
   width: 0.726665rem;
   background: #f3f3f3;
   border-radius: 0.025rem;
   position: relative;
 }
-.lm-form-box .lm-upload .lm-upload-add:before {
+.lm-form-box div .lm-upload .lm-upload-add:before {
   content: "";
   display: block;
   width: 0.21333rem;
@@ -122,7 +125,7 @@
   margin-left: -0.10666rem;
   background: #fff;
 }
-.lm-form-box .lm-upload .lm-upload-add:after {
+.lm-form-box div .lm-upload .lm-upload-add:after {
   content: "";
   display: block;
   position: absolute;
@@ -134,16 +137,16 @@
   margin-top: -0.10666rem;
   background: #fff;
 }
-.lm-form-box .lm-radio-plain,
-.lm-form-box .lm-checkbox-plain {
+.lm-form-box div .lm-radio-plain,
+.lm-form-box div .lm-checkbox-plain {
   float: left;
   width: 32%;
   margin-right: 2%;
   margin-top: 0.1rem;
   position: relative;
 }
-.lm-form-box .lm-radio-plain label,
-.lm-form-box .lm-checkbox-plain label {
+.lm-form-box div .lm-radio-plain label,
+.lm-form-box div .lm-checkbox-plain label {
   display: inline-block;
   width: 100%;
   box-sizing: border-box;
@@ -154,10 +157,10 @@
   text-align: center;
   font-size: 0.13rem;
 }
-.lm-form-box .lm-radio-plain input[type="radio"],
-.lm-form-box .lm-checkbox-plain input[type="radio"],
-.lm-form-box .lm-radio-plain input[type="checkbox"],
-.lm-form-box .lm-checkbox-plain input[type="checkbox"] {
+.lm-form-box div .lm-radio-plain input[type="radio"],
+.lm-form-box div .lm-checkbox-plain input[type="radio"],
+.lm-form-box div .lm-radio-plain input[type="checkbox"],
+.lm-form-box div .lm-checkbox-plain input[type="checkbox"] {
   position: absolute;
   left: 0;
   top: 0;
@@ -166,25 +169,25 @@
   z-index: 1;
   opacity: 0;
 }
-.lm-form-box .lm-radio-plain input[type="radio"]:checked + label,
-.lm-form-box .lm-checkbox-plain input[type="radio"]:checked + label,
-.lm-form-box .lm-radio-plain input[type="checkbox"]:checked + label,
-.lm-form-box .lm-checkbox-plain input[type="checkbox"]:checked + label {
+.lm-form-box div .lm-radio-plain input[type="radio"]:checked + label,
+.lm-form-box div .lm-checkbox-plain input[type="radio"]:checked + label,
+.lm-form-box div .lm-radio-plain input[type="checkbox"]:checked + label,
+.lm-form-box div .lm-checkbox-plain input[type="checkbox"]:checked + label {
   border: 1px solid #6281C2;
   color: #6281C2;
 }
-.lm-form-box .lm-radio-plain:nth-of-type(3n),
-.lm-form-box .lm-checkbox-plain:nth-of-type(3n) {
+.lm-form-box div .lm-radio-plain:nth-of-type(3n),
+.lm-form-box div .lm-checkbox-plain:nth-of-type(3n) {
   margin-right: 0;
 }
-.lm-form-box .lm-radio-plain:after,
-.lm-form-box .lm-checkbox-plain:after {
+.lm-form-box div .lm-radio-plain:after,
+.lm-form-box div .lm-checkbox-plain:after {
   content: "";
   display: block;
   height: 0;
   clear: both;
 }
-.lm-form-box:after {
+.lm-form-box div:after {
   content: "";
   display: block;
   height: 0;

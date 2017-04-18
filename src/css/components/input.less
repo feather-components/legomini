@@ -28,10 +28,14 @@
 .lm-form-box{
   width:100%;
   background: #fff;
-  padding:0.08rem;
+  padding:0 0.08rem;
   box-sizing:border-box;
   position: relative;
-  .lm-label{
+  div{
+    width:100%;
+    padding:0.08rem 0;
+
+    .lm-label{
       display: inline-block;
       width:100%;
       color:#4a4a4a;
@@ -51,125 +55,125 @@
       //  max-width: 50%;
       //  line-height: 2;
       //}
-    .lm-label-desc{
-      display: inline-block;
-      //float: left;
-      font-size:0.1rem;
-      color:#878787;
-      margin-left:0.025rem;
-      line-height:0.26rem;
-    }
-
-    &:after{
-      .clearfix;
-    }
-
-  }
-  input[type="text"],input[type="password"]{
-    width:100%;
-    line-height: 25px;
-    &::-webkit-input-placeholder{
-      color:#e1e1e1;
-    }
-  }
-  div[contenteditable="true"]{
-    width: 100%;
-    min-height:0.26rem;
-    max-height:1rem;
-    height:auto;
-    resize: none;
-    overflow: auto;
-    &:focus{
-      border: 0;
-      outline: none;
-    }
-
-  }
-
-
-  select{
-    -webkit-appearance: none;
-    float: left;
-    width:100%;
-    //position: absolute;
-    //left:0;
-    //top:0;
-    color:#e1e1e1;
-    border:0;
-    height:25px;
-    &:focus{
-      outline: none;
-      border: none;
-    }
-  }
-
-  select + .lm-select-icon{
-    display: inline-block;
-    position: absolute;
-    right:0.08rem;
-    bottom:0.08rem;
-    color:@light-grey;
-    z-index:1;
-  }
-
-  .lm-input{
-    width:100%;
-    line-height: 2;
-    font-size:0.13rem;
-    position: relative;
-
-    &:after{
-      .clearfix;
-    }
-
-  }
-
-  .lm-upload{
-    width:100%;
-    line-height: 2;
-    font-size:0.13rem;
-    position: relative;
-    .lm-upload-add{
-      height:0.53333rem;
-      width:0.726665rem;
-      background: #f3f3f3;
-      border-radius: 0.025rem;
-      position: relative;
-      &:before{
-        content:"";
-        display: block;
-        width:0.21333rem;
-        height:0.04rem;
-        position: absolute;
-        top:50%;
-        left:50%;
-        margin-top:-0.02rem;
-        margin-left:-0.10666rem;
-        background:#fff;
+      .lm-label-desc{
+        display: inline-block;
+        //float: left;
+        font-size:0.1rem;
+        color:#878787;
+        margin-left:0.025rem;
+        line-height:0.26rem;
       }
+
       &:after{
-        content:"";
-        display: block;
-        position: absolute;
-        height:0.213333rem;
-        width:0.04rem;
-        top:50%;
-        left:50%;
-        margin-left:-0.02rem;
-        margin-top:-0.10666rem;
-        background:#fff;
+        .clearfix;
+      }
 
+    }
+    input[type="text"],input[type="password"]{
+      width:100%;
+      line-height: 25px;
+      &::-webkit-input-placeholder{
+        color:#e1e1e1;
+      }
+    }
+    div[contenteditable="true"]{
+      width: 100%;
+      min-height:0.26rem;
+      max-height:1rem;
+      height:auto;
+      resize: none;
+      overflow: auto;
+      &:focus{
+        border: 0;
+        outline: none;
+      }
+
+    }
+
+
+    select{
+      -webkit-appearance: none;
+      //float: left;
+      width:100%;
+      //position: absolute;
+      //left:0;
+      //top:0;
+      color:#e1e1e1;
+      border:0;
+      height:25px;
+      &:focus{
+        outline: none;
+        border: none;
       }
     }
 
-  }
+    select + .lm-select-icon{
+      display: inline-block;
+      position: absolute;
+      right:0.08rem;
+      bottom:0.08rem;
+      color:@light-grey;
+      z-index:1;
+    }
 
-  .lm-radio-plain,.lm-checkbox-plain{
-    float: left;
-    width: 32%;
-    margin-right:2%;
-    margin-top:0.1rem;
-    position: relative;
+    .lm-input{
+      width:100%;
+      line-height: 2;
+      font-size:0.13rem;
+      position: relative;
+
+      &:after{
+        .clearfix;
+      }
+
+    }
+
+    .lm-upload{
+      width:100%;
+      line-height: 2;
+      font-size:0.13rem;
+      position: relative;
+      .lm-upload-add{
+        height:0.53333rem;
+        width:0.726665rem;
+        background: #f3f3f3;
+        border-radius: 0.025rem;
+        position: relative;
+        &:before{
+          content:"";
+          display: block;
+          width:0.21333rem;
+          height:0.04rem;
+          position: absolute;
+          top:50%;
+          left:50%;
+          margin-top:-0.02rem;
+          margin-left:-0.10666rem;
+          background:#fff;
+        }
+        &:after{
+          content:"";
+          display: block;
+          position: absolute;
+          height:0.213333rem;
+          width:0.04rem;
+          top:50%;
+          left:50%;
+          margin-left:-0.02rem;
+          margin-top:-0.10666rem;
+          background:#fff;
+
+        }
+      }
+
+    }
+
+    .lm-radio-plain,.lm-checkbox-plain{
+      float: left;
+      width: 32%;
+      margin-right:2%;
+      margin-top:0.1rem;
+      position: relative;
       label{
         display: inline-block;
         width:100%;
@@ -199,14 +203,16 @@
       }
 
 
+      &:after{
+        .clearfix;
+      }
+    }
+
     &:after{
       .clearfix;
     }
   }
 
-  &:after{
-    .clearfix;
-  }
 }
 
 .lm-focus {
