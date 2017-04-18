@@ -22,7 +22,7 @@
 .lm-form-box .lm-label {
   display: inline-block;
   width: 100%;
-  color: #6281C2;
+  color: #4a4a4a;
   line-height: 25px;
 }
 .lm-form-box .lm-label .lm-label-desc.error {
@@ -49,6 +49,10 @@
   width: 100%;
   line-height: 25px;
 }
+.lm-form-box input[type="text"]::-webkit-input-placeholder,
+.lm-form-box input[type="password"]::-webkit-input-placeholder {
+  color: #e1e1e1;
+}
 .lm-form-box div[contenteditable="true"] {
   width: 100%;
   min-height: 0.26rem;
@@ -65,6 +69,7 @@
   -webkit-appearance: none;
   float: left;
   width: 100%;
+  color: #e1e1e1;
   border: 0;
   height: 25px;
 }

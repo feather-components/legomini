@@ -34,7 +34,7 @@
   .lm-label{
       display: inline-block;
       width:100%;
-      color:#6281C2;
+      color:#4a4a4a;
       line-height: 25px;
       .lm-label-desc.error{
         display: inline-block;
@@ -68,6 +68,9 @@
   input[type="text"],input[type="password"]{
     width:100%;
     line-height: 25px;
+    &::-webkit-input-placeholder{
+      color:#e1e1e1;
+    }
   }
   div[contenteditable="true"]{
     width: 100%;
@@ -91,6 +94,7 @@
     //position: absolute;
     //left:0;
     //top:0;
+    color:#e1e1e1;
     border:0;
     height:25px;
     &:focus{
