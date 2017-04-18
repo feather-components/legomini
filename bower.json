@@ -2,5 +2,5 @@
   "name": "legomini",
   "desc": "适用于H5经纪人的ui规范",
   "version": "1.0.1",
-  "main": "css/legomini.css"
+  "main": "legomini.css"
 }
