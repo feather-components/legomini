@@ -64,14 +64,14 @@ module.exports = function(grunt) {
                 files: [
                     {
                         expand:true,
-                        cwd:'build/css/',
+                        cwd:'build/',
                         src:'legomini.css',
                         dest: 'dist/',
                         ext: '.css'
                     },
                     {
                         expand:true,
-                        cwd:'build/css/components/',
+                        cwd:'build/components/',
                         src:'*.css',
                         dest: 'dist/components/',
                         ext: '.css'
