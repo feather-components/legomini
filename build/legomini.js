@@ -22,7 +22,7 @@
         head.appendChild(st);
         return defaultFontSize;
     }
-    adapt(320,100);
+    adapt(375,100);
     if (typeof module === 'object' && typeof module.exports == 'object') {
         module.exports = adapt;
     }
