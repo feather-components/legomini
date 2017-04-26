@@ -24,8 +24,8 @@
 
 
 ## 安装
-    bower install feather-components/datagrid2 
-    feather2 install feather-components/datagrid2
+    bower install feather-components/legomini 
+    feather2 install feather-components/legomini
     
     
 ## 引入
